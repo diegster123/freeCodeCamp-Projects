@@ -1,0 +1,36 @@
+/* Your default styles go here */
+
+/* Media query for screens with a maximum width of 600 pixels */
+@media only screen and (max-width: 600px) {
+	/* Styles for screens with a width of 600 pixels or less go here */
+}
+
+/* Media query for screens with a minimum width of 601 pixels and a maximum width of 900 pixels */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+	/* Styles for screens with a width between 601 and 900 pixels go here */
+}
+
+/* Media query for screens with a minimum width of 901 pixels */
+@media only screen and (min-width: 901px) {
+	/* Styles for screens with a width of 901 pixels or more go here */
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+#navbar {
+  /* Add these styles to make the navbar fixed within the header */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Set a background color if needed */
+}
+
+
+h1{
+	text-align: center;
+}
