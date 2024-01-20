@@ -2,30 +2,48 @@
 <html lang="en">
   <head>
     <title>Survey Form</title>
-    <h1 id="title">Diego Jumagdao Survey Form</h1>
-    <link rel = "stylesheet" src ="styles.css">
+    <link rel = "stylesheet" href ="styles.css">
   </head>
   <body>
-    <p id="description">description</p>
+    <header>
+    <h1 id="title">Diego Jumagdao's Survey Form</h1>
+    <p id="description">This survey form was created for the Responsive Web Design course from freeCodecamp</p>
+    </header>
+    <main>
     <form id="survey-form">
-      <label id="name-label">Name<input id="name" type="text" required placeholder="Input Name"/></label>   
-      <label id="email-label">Email<input id="email" type="email" required placeholder="Input Email"/></label>
+      <label id="name-label">Name: <input id="name" type="text" required placeholder="Input Name"/></label>   
+      <label id="email-label">Email: <input id="email" type="email" required placeholder="Input Email"/></label>
       <label id="number-label">Age (Optional)<input min="1" max="100" id="number" type="number" required placeholder="Input Age"/></label>
       <select id="dropdown">
-        <option>1</option>
-        <option>2</option>
+        <option>Are you currently studying freeCodeCamp like me?</option>
+        <option>Are you training boxing and trying to prioritize fitness?</option>
+        <option>Are you bla bla bla bla bla bla bla?</option>
+        <option>Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum</option>
       </select>
       <label>
-        <input value="radio" name="radio" type="radio">1</input >     
+        <input value="radio" name="radio" type="radio">Do you want to fight?</input >     
       </label>
       <label>
-      <input value="radio" name="radio" type="radio">2</input >
+      <input value="radio" name="radio" type="radio">I don't want to fight i'm sorry nyehehe</input >
       </label>
-      <label for="">
-        <input value="checkbox" class="inline" id="" type="checkbox" required name="" /> 
+      <input value="radio" name="radio" type="radio">I don't want to fight i'm sorry nyehehe</input >
       </label>
-      <label for="">
-        <input value="checkbox" class="inline" id="" type="checkbox" required name="" /> 
+      <input value="radio" name="radio" type="radio">I don't want to fight i'm sorry nyehehe</input >
+      </label>
+      <input value="radio" name="radio" type="radio">I don't want to fight i'm sorry nyehehe</input >
+      </label>
+      
+      <label for="checkbox">
+        nyenyenyenye<input value="checkbox" class="inline" id="checkbox" type="checkbox" required name="checkbox" /> 
+      </label>
+      <label for="checkbox">
+        nyenyenyenye<input value="checkbox" class="inline" id="checkbox" type="checkbox" required name="checkbox" /> 
+      </label>
+      <label for="checkbox">
+        nyenyenyenye<input value="checkbox" class="inline" id="checkbox" type="checkbox" required name="checkbox" /> 
+      </label>
+      <label for="checkbox">
+        nyenyenyenye<input value="checkbox" class="inline" id="checkbox" type="checkbox" required name="checkbox" /> 
       </label>
       
        <label for="bio">Provide a bio:
@@ -33,5 +51,6 @@
         </label>
         <input type="submit" id="submit" value="Submit"></input>
     </form>
+  </main>
   </body>
 </html>
